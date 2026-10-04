@@ -28,6 +28,7 @@ df = pd.read_csv(
 )
 
 df.plot()
+plt.title('Synthetic stock-price demonstration')
 plt.ylabel('Price')
 plt.tight_layout()
 plt.show()

@@ -296,7 +296,7 @@ mumps = pd.read_csv('Mumps.csv', header=None).values
 
 # a. plot annual total measles cases in each year
 plt.figure()
-plt.title('a. NYC measles cases')
+plt.title('a. Synthetic measles-style demo counts')
 
 # 1. Your code is here
 years = measles[:, 0]

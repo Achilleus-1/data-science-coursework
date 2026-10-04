@@ -4,9 +4,9 @@ Python and Jupyter exercises covering collections, visualization, probability, r
 
 ## Original coursework
 
-- CS 3753-01T — Data Science, Summer 2025
+- Data Science
 
-Originally completed at the University of Texas at San Antonio during the terms above and imported to GitHub later. This repository preserves the submitted implementation; repository documentation and import housekeeping were added separately.
+Originally completed at the University of Texas at San Antonio and imported to GitHub later. This repository retains the coursework implementation with documented maintenance fixes and demonstration assets.
 
 **Languages and technologies:** Python, Jupyter, NumPy, Pandas, Matplotlib, SciPy, scikit-learn.
 
@@ -32,11 +32,17 @@ Originally completed at the University of Texas at San Antonio during the terms 
 
 ## Running the source
 
-Create a Python environment with the libraries listed above and open the notebooks in Jupyter. The plotting/statistics exercises reference fdata.csv, Measles.csv, and Mumps.csv; these datasets were absent from the supplied folder and are not fabricated here.
+Install requirements.txt in a Python 3.12 environment. The missing CSV inputs now have explicitly labeled synthetic replacements. See DEVELOPMENT.md for notebook and headless script commands.
 
 ## Scope and limitations
 
-- Notebook outputs and execution metadata are cleared in the separate import-cleanup commit; code cells are unchanged.
-- Some scripts require absent course data; this import does not claim complete end-to-end reproducibility.
+- Notebook outputs and execution metadata remain cleared.
+- New fictional datasets make the scripts runnable without representing the missing original course data or historical records.
 
 Only source code, build configuration, and required text inputs are included. Written submissions, assignment instructions, PDFs, videos, generated outputs, binary builds, and private configuration are omitted. Anonymized contributor labels and supplied-code comments retain the distinction between submitted work and scaffolding. No license for course-provided material is inferred.
+
+## Development and reuse
+
+See [DEVELOPMENT.md](DEVELOPMENT.md) for reproducible checks and known archival dependencies, [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance, and [SECURITY.md](SECURITY.md) for private reports.
+
+Reuse terms and provenance are documented in [NOTICE.md](NOTICE.md) and [LICENSE](LICENSE). The maintenance license does not grant rights to original course or team material.
